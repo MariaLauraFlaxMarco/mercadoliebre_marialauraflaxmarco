@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaLauraFlaxMarco/mercadoliebre_marialauraflaxmarco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaLauraFlaxMarco/mercadoliebre_marialauraflaxmarco/issues"
+  },
+  "homepage": "https://github.com/MariaLauraFlaxMarco/mercadoliebre_marialauraflaxmarco#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
