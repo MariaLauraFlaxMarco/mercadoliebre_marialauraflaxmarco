@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif; /*tipo de letra*/
+}
+
+p{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 24px; /*tamaño de fuente*/
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+.buscador{
+    margin-left: 10px;
+}
+
+.comprasTarjeta{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.listaSuperior{
+    margin-bottom: 20px;
+}
+
+.menuHamburguesa{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menuHamburguesa button{
+    padding: 8px 10px;
+    background-color: #1259c3;
+    border-radius: 5px;
+    border: none;
+}
+
+.menuHamburguesa button i{
+    color: white;
+    font-size: 15px;
+}
