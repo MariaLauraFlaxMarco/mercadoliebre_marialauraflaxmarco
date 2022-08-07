@@ -7,6 +7,11 @@
 
 body{
     font-family: 'Roboto', sans-serif; /*tipo de letra*/
+    background-color: #ebebed;
+}
+
+img{
+    width: 100%;
 }
 
 p{
@@ -17,16 +22,23 @@ h2{
     font-size: 24px; /*tamaño de fuente*/
 }
 
+nav{
+    display: none;
+}
+
 .precio{
     font-size: 18px;
 }
 
 .descuentos{
     font-size: 16px;
+    color: #39b54a;
+    margin-bottom: 15px;
 }
 
 .descripcion{
     font-size: 16px;
+    color: #666;
 }
 
 header{
@@ -67,4 +79,66 @@ header{
 .menuHamburguesa button i{
     color: white;
     font-size: 15px;
+}
+
+.footerDiv{
+    text-align: center;
+    padding: 20px;
+}
+
+.itemFooter{
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.itemFooter i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.copyright{
+    text-align: left;
+    color: #666;
+}
+
+.mainIndex{
+    width: 90%;
+    margin: auto;
+}
+
+.articulos{
+    margin: 10px 0;
+    background-color: white;
+}
+
+.descripcionArticulo{
+    border-top: 1px solid #ebebeb; 
+    padding: 15px; 
+    display: none;
+}
+
+.descripcionArticulo i{
+    color: #39b54a;
+    margin-bottom: 15px;
+}
+
+@media(min-width:481px){
+    .descripcionArticulo{
+        display: block;
+    }
+    .articulos{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);    
+    }
+    nav{
+        display: block;
+    }
+    .menuHamburguesa{
+        display: none;
+    }
+
+}
+
+@media(min-width:769px){
+    
 }
